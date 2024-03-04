@@ -22,6 +22,9 @@ const CarDetails = () => {
         </div>
         <div className="_image-section">
           <img src="/assets/car-image.png" alt="car-image" />
+          <div>
+            <img src="/assets/brandlogo-2.png" alt="logo-image" />
+          </div>
         </div>
       </div>
     </>

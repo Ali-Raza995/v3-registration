@@ -35,14 +35,18 @@ export const userDetailsInput = [
   { type: "text", label: "E-post" },
 ];
 export const userDetailsSection = [
-  { type: "text", label: "Fornavn" },
-  { type: "text", label: "Etternavn" },
   { type: "text", label: "Adresse" },
+];
+export const checkDetails = [
+  { type: "checkbox", label: "Krev kundesamtykke (GDPR)" },
+];
+export const checkDetailsMap = [
+  { type: "checkbox", label: "Print dekketiketter" },
 ];
 export const userDetailsSection2 = [
   { type: "number", label: "Mobilnummer" },
   { type: "text", label: "E-post" },
-  { type: "text", label: "E-post" },
+  { type: "textarea", label: "E-post" },
 ];
 
 export const carouselInfoSections = [
@@ -72,4 +76,37 @@ export const userTableData = [
   "Martin Olsen",
   "Ty Michael Tollestrup",
   "Sepehr Akbari",
+];
+
+export const carouselData = [
+  {
+    image: "/assets/icon_change1.png",
+    heading: "Hjulskift",
+    para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad natus beatae inventore voluptatum quasi officiis molestias,veniam aliquid praesentium, dignissimos ex nisi cumque vero in,reiciendis ipsa possimus aperiam. Molestiae",
+  },
+  {
+    image: "/assets/icon_change2.png",
+    heading: "Maskinvask",
+    para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad natus beatae inventore voluptatum quasi officiis molestias,veniam aliquid praesentium, dignissimos ex nisi cumque vero in,reiciendis ipsa possimus aperiam. Molestiae",
+  },
+  {
+    image: "/assets/icon_change3.png",
+    heading: "Lagring",
+    para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad natus beatae inventore voluptatum quasi officiis molestias,veniam aliquid praesentium, dignissimos ex nisi cumque vero in,reiciendis ipsa possimus aperiam. Molestiae",
+  },
+  {
+    image: "/assets/icon_change1.png",
+    heading: "Hjulskift",
+    para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad natus beatae inventore voluptatum quasi officiis molestias,veniam aliquid praesentium, dignissimos ex nisi cumque vero in,reiciendis ipsa possimus aperiam. Molestiae",
+  },
+  {
+    image: "/assets/icon_change2.png",
+    heading: "Maskinvask",
+    para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad natus beatae inventore voluptatum quasi officiis molestias,veniam aliquid praesentium, dignissimos ex nisi cumque vero in,reiciendis ipsa possimus aperiam. Molestiae",
+  },
+  {
+    image: "/assets/icon_change3.png",
+    heading: "Lagring",
+    para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad natus beatae inventore voluptatum quasi officiis molestias,veniam aliquid praesentium, dignissimos ex nisi cumque vero in,reiciendis ipsa possimus aperiam. Molestiae",
+  },
 ];

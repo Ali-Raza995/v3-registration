@@ -30,8 +30,12 @@ const Input = (props) => {
       case "textarea":
         return (
           <>
-            <Form.Label htmlFor="inputPassword5">{label}</Form.Label>
-            <Form.Control type="textarea" placeholder="Enter text" />
+     <Form.Control
+        as="textarea" // Use "as" instead of "type" for textarea
+        className="_text-area-input"
+        style={{ height: "130px", resize: "none" }} 
+        placeholder="Enter text"
+      />
           </>
         );
       case "number":
@@ -60,18 +64,6 @@ const Input = (props) => {
                 name="formHorizontalRadios"
               />
             ))}
-            {/* <Form.Check
-              type="radio"
-              id="radio-2"
-              label="Bruktbil"
-              name="formHorizontalRadios"
-            />
-            <Form.Check
-              type="radio"
-              id="radio-3"
-              label="Nytte"
-              name="formHorizontalRadios"
-            /> */}
           </div>
         );
       case "date":
@@ -87,6 +79,7 @@ const Input = (props) => {
             <Form.Check
               onChange={(e) => handleChangeCheck(e, index)}
               type="checkbox"
+              className="largerCheckbox"
               label={label}
             />
           </Form.Group>

@@ -1,9 +1,9 @@
 /* eslint-disable react/prop-types */
 import { Button } from "react-bootstrap";
 
-const CommonButton = ({ btnText, imgPath }) => {
+const CommonButton = ({ btnText, imgPath, width = "90px" }) => {
   return (
-    <Button className="_check-button">
+    <Button className="_check-button" style={{width:width}}>
       {btnText ? (
         <span>{btnText}</span>
       ) : (

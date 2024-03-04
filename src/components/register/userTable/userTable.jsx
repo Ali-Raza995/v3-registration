@@ -16,7 +16,7 @@ const UserTable = () => {
         <div />
         <div>
           <TableData userData={userTableData} />
-          <div className="check-btn">
+          <div className="check-btn _table-btn">
             <CheckButton />
           </div>
         </div>
