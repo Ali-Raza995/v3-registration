@@ -265,13 +265,13 @@ select, textarea {
 .carousel-inside-boxes {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  width: 90%;
   padding: 0 20px;
 }
 
 .carousel-inside-box {
   border: 1px solid black;
-  padding: 20px 10px;
+  padding: 20px 15px;
   height: 250px;
   overflow: hidden;
 }
@@ -279,6 +279,33 @@ select, textarea {
 .carousel-inside-box>div {
   display: flex;
   justify-content: center;
+}
+.swiper-button-prev, .swiper-button-next {
+  position: absolute;
+}
+
+.swiper-container {
+  position: relative; /* or absolute, or fixed */
+}
+.swiper-button-prev, .swiper-button-next {
+  z-index: 1000; /* Adjust based on your layout */
+}
+.swiper-button-next, .swiper-button-prev {
+  width: 20px !important; /* Adjust the width as needed */
+  height: 20px !important; /* Adjust the height as needed */
+  /* Additional styling as per your requirements */
+}
+.swiper-button-prev:after, .swiper-button-next:after {
+  font-size: 20px;
+  
+
+}
+.swiper-button-prev {
+  left: -5px; /* Adjust the value as needed to position the button outside */
+}
+
+.swiper-button-next {
+  right: -5px; /* Adjust the value as needed to position the button outside */
 }
 
 .carousel-img {
@@ -308,6 +335,7 @@ th {
   font-weight: 400;
   font-size: 12px;
   text-decoration: underline;
+  text-align: start;
 }
 
 tr {
