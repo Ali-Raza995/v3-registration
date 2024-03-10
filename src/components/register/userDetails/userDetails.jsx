@@ -42,7 +42,7 @@ const UserDetails = () => {
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d6620.561625547313!2d-117.94504060664674!3d33.933904942806855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x80dd2aaeff6e9f5b%3A0xe96225ab1cf18422!2sLa%20Habra%2C%20CA%2090631%2C%20United%20States!3m2!1d33.93194!2d-117.933618!4m5!1s0x80dd2ab4c367e0c3%3A0x5bc18fc369be1d28!2s210%20E%20Rose%20Ave%2C%20La%20Habra%2C%20CA%2090631%2C%20United%20States!3m2!1d33.9357519!2d-117.9446023!5e0!3m2!1sen!2sin!4v1706692189905!5m2!1sen!2sin"
             width="100%"
-            height="250"
+            height="300"
             style={{ border: 0 }}
             allowfullscreen=""
             loading="lazy"
