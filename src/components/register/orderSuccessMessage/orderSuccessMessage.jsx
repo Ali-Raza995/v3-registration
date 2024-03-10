@@ -1,12 +1,11 @@
-import Header from "../../common/header";
 import CommonButton from "../../common/commonButton";
 
 const OrderSuccessMessage = () => {
   return (
     <>
-      <div className="_btn-parent">
+      {/* <div className="_btn-parent">
         <Header />
-      </div>
+      </div> */}
       <div className="_orderSuccess">
         <p className="_thanks-message">
           Tusen takk for bestilling av dekkhotell!
@@ -22,12 +21,12 @@ const OrderSuccessMessage = () => {
           <p>Volkswagen</p>
           <p>ID.BUZZ PRO 77</p>
           <p>DR92828</p>
-        <p>WVGZZZA1ZMV116508</p>
+          <p>WVGZZZA1ZMV116508</p>
         </div>
 
         <div className="_btn-footer">
-          <CommonButton btnText="Registrer ny" width="120px"/>
-          <CommonButton btnText="Til behandling" width="120px"/>
+          <CommonButton btnText="Registrer ny" width="120px" />
+          <CommonButton btnText="Til behandling" width="120px" />
         </div>
       </div>
     </>

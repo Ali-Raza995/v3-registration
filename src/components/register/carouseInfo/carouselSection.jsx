@@ -9,6 +9,7 @@ import { Navigation, Mousewheel, Keyboard } from "swiper/modules";
 
 const CarouselSection = () => {
   return (
+    <div className="_carousel-parent">
     <div className="carousel-container">
       <Swiper
         spaceBetween={30}
@@ -46,6 +47,8 @@ const CarouselSection = () => {
           ))}
         </div>
       </Swiper>
+    </div>
+
     </div>
   );
 };
