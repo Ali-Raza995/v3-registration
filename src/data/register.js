@@ -82,31 +82,31 @@ export const carouselData = [
   {
     image: "/assets/icon_change1.png",
     heading: "Hjulskift",
-    para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad natus beatae inventore voluptatum quasi officiis molestias,veniam aliquid praesentium, dignissimos ex nisi cumque vero in,reiciendis ipsa possimus aperiam. Molestiae",
+    para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad natus beatae inventore voluptatum",
   },
   {
     image: "/assets/icon_change2.png",
     heading: "Maskinvask",
-    para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad natus beatae inventore voluptatum quasi officiis molestias,veniam aliquid praesentium, dignissimos ex nisi cumque vero in,reiciendis ipsa possimus aperiam. Molestiae",
+    para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad natus beatae inventore voluptatum quasi officiis molestias",
   },
   {
     image: "/assets/icon_change3.png",
     heading: "Lagring",
-    para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad natus beatae inventore voluptatum quasi officiis molestias,veniam aliquid praesentium, dignissimos ex nisi cumque vero in,reiciendis ipsa possimus aperiam. Molestiae",
+    para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad natus beatae inventore voluptatum quasi officiis ",
   },
   {
     image: "/assets/icon_change1.png",
     heading: "Hjulskift",
-    para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad natus beatae inventore voluptatum quasi officiis molestias,veniam aliquid praesentium, dignissimos ex nisi cumque vero in,reiciendis ipsa possimus aperiam. Molestiae",
+    para: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
   },
   {
     image: "/assets/icon_change2.png",
     heading: "Maskinvask",
-    para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad natus beatae inventore voluptatum quasi officiis molestias,veniam aliquid praesentium, dignissimos ex nisi cumque vero in,reiciendis ipsa possimus aperiam. Molestiae",
+    para: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
   },
   {
     image: "/assets/icon_change3.png",
     heading: "Lagring",
-    para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad natus beatae inventore voluptatum quasi officiis molestias,veniam aliquid praesentium, dignissimos ex nisi cumque vero in,reiciendis ipsa possimus aperiam. Molestiae",
+    para: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
   },
 ];

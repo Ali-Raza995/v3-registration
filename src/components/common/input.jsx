@@ -60,7 +60,8 @@ const Input = (props) => {
                 key={index}
                 type="radio"
                 id="radio-1"
-                label="Nybil"
+                value={radio?.value}
+                label={radio?.label}
                 name="formHorizontalRadios"
               />
             ))}
