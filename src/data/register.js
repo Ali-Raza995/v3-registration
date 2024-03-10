@@ -18,6 +18,10 @@ export const radioType = [
   { label: "Nytte", value: "Nytte" },
 ];
 
+export const radioTypeCarouselSection = [
+  { label: "Ukjent", value: "Ukjent" },
+];
+
 export const inputFields = [
   { type: "select", label: "Kundetype", options: options },
   { type: "text", label: "Registreringsnummer" },
@@ -60,6 +64,7 @@ export const carouselInfoSections = [
     label: "DH kategori",
     options: options,
   },
+  { type: "radio" },
   {
     type: "date",
     label: "Hentedato",

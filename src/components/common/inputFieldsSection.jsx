@@ -2,7 +2,7 @@ import Input from "./input";
 
 /* eslint-disable react/prop-types */
 const InputFieldsSection = (props) => {
-  const { inputFields, radioType } = props;
+  const { inputFields, radioType, mode } = props;
   return (
     <div className="_section">
       {inputFields.map((field, index) => (
@@ -12,6 +12,7 @@ const InputFieldsSection = (props) => {
             label={field.label}
             options={field.options}
             radioType={radioType}
+            mode={mode}
           />
         </div>
       ))}

@@ -4,7 +4,8 @@
 import { Form } from "react-bootstrap";
 
 const Input = (props) => {
-  const { label, type, options, radioType, handleChangeCheck, index } = props;
+  const { label, type, options, radioType, handleChangeCheck, index, mode } =
+    props;
   const renderInput = () => {
     switch (type) {
       case "select":
@@ -30,12 +31,12 @@ const Input = (props) => {
       case "textarea":
         return (
           <>
-     <Form.Control
-        as="textarea" // Use "as" instead of "type" for textarea
-        className="_text-area-input"
-        style={{ height: "130px", resize: "none" }} 
-        placeholder="Enter text"
-      />
+            <Form.Control
+              as="textarea" // Use "as" instead of "type" for textarea
+              className="_text-area-input"
+              style={{ height: "130px", resize: "none" }}
+              placeholder="Enter text"
+            />
           </>
         );
       case "number":
@@ -54,7 +55,10 @@ const Input = (props) => {
         );
       case "radio":
         return (
-          <div className="_input-radio">
+          <div
+            className="_input-radio"
+            style={{ marginTop: mode === "carouselSection" ? "0px" : "" }}
+          >
             {radioType.map((radio, index) => (
               <Form.Check
                 key={index}

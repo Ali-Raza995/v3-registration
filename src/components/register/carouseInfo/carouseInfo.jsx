@@ -1,4 +1,4 @@
-import { carouselInfoSections } from "../../../data/register";
+import { carouselInfoSections, radioTypeCarouselSection } from "../../../data/register";
 import InputFieldsSection from "../../common/inputFieldsSection";
 import CarouselSection from "./carouselSection";
 
@@ -8,7 +8,7 @@ const CarouseInfo = () => {
       <h1 className="heading">Kjøretøyinfo</h1>
       <div className="register-content">
         <div className="_section">
-          <InputFieldsSection inputFields={carouselInfoSections} />
+          <InputFieldsSection inputFields={carouselInfoSections} radioType={radioTypeCarouselSection} mode="carouselSection"/>
         </div>
         <div className="_section">
           <div className="plain-text">

@@ -145,10 +145,16 @@ input[type=checkbox] {
   border: 1px solid #000 !important;
 }
 
+._carousel-header {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #595959;
+}
+
 .form-check {
   display: flex;
   align-items: center;
-  gap: 5px;
 }
 .form-check > label {
   margin-top: 10px;
@@ -609,9 +615,9 @@ td {
     /* Add some space between buttons */
   }
 
-  .carousel-main {
+  /* .carousel-main {
     width: 200%;
-  }
+  } */
 }
 
 @media (max-width: 600px) {
