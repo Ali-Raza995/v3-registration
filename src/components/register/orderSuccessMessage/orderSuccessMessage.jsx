@@ -10,7 +10,7 @@ const OrderSuccessMessage = () => {
         <p className="_thanks-message">
           Tusen takk for bestilling av dekkhotell!
         </p>
-        <div className="_image-section">
+        <div className="_image-section _order-success">
           <img src="/assets/car-image.png" alt="car-image" />
           <div>
             <img src="/assets/brandlogo-2.png" alt="logo-image" />

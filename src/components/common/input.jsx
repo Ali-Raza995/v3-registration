@@ -4,7 +4,7 @@
 import { Form } from "react-bootstrap";
 
 const Input = (props) => {
-  const { label, type, options, radioType, handleChangeCheck, index, mode } =
+  const { label, type, options, radioType, handleChangeCheck, index, styles } =
     props;
   const renderInput = () => {
     switch (type) {
@@ -57,7 +57,7 @@ const Input = (props) => {
         return (
           <div
             className="_input-radio"
-            style={{ marginTop: mode === "carouselSection" ? "0px" : "" }}
+            style={styles}
           >
             {radioType.map((radio, index) => (
               <Form.Check

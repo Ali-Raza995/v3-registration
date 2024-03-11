@@ -17,17 +17,24 @@ const TableData = ({ userData }) => {
   };
 
   return (
-    <Table className="user-table" striped bordered responsive hover>
-      <thead>
-        <tr style={{marginBottom:"10pxs"}}>
-          <th>Mener du en av disse?</th>
+    <Table className="user-table" striped bordered responsive hover style={{ borderCollapse: 'collapse' }}>
+      <thead style={{height:"40px"}}>
+        <tr style={{ marginBottom: "10px" }}>
+          <th style={{ paddingLeft: "10px" }}>Mener du en av disse?</th>
           <th>Mobnr. match</th>
           <th>E-post match</th>
         </tr>
       </thead>
       <tbody>
         {userData?.map((content, ind) => (
-          <tr key={ind} style={checkedRows[ind] ? {backgroundColor: "#c3c3c3"} : {}}>            <td style={checkedRows[ind] ? {fontWeight: 600} : {}}>{content}</td>
+          <tr
+            key={ind}
+            style={checkedRows[ind] ? { backgroundColor: "#c3c3c3" } : {}}
+          >
+            {" "}
+            <td style={checkedRows[ind] ? { fontWeight: 600 } : {}}>
+              {content}
+            </td>
             <td>
               {checkedRows[ind] && (
                 <img

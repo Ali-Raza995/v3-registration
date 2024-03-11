@@ -20,7 +20,7 @@ const CarDetails = () => {
             radioType={radioType}
           />
         </div>
-        <div className="_image-section">
+        <div className="_image-section _car-details-container">
           <img src="/assets/car-image.png" alt="car-image" />
           <div>
             <img src="/assets/brandlogo-2.png" alt="logo-image" />

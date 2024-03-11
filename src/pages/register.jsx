@@ -13,14 +13,12 @@ const Register = () => {
   const [isFormSubmitted, setIsFormSubmitted] = useState(false);
 
   const handleSubmit = () => {
-    setIsFormSubmitted(true)
-  }
+    setIsFormSubmitted(true);
+  };
   return (
-
     <div className="_parentContainer">
       {isFormSubmitted ? (
         <>
-
           <div className="container">
             <OrderSuccessMessage />
           </div>
@@ -45,7 +43,10 @@ const Register = () => {
           <div className="_map-footer">
             <InputFieldsSection inputFields={checkDetailsMap} />
 
-            <CommonButton imgPath="/assets/icons8-tick-30.png" onClick={handleSubmit} />
+            <CommonButton
+              imgPath="/assets/icons8-tick-30.png"
+              onClick={handleSubmit}
+            />
           </div>
         </>
       )}

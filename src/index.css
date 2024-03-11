@@ -2,8 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Roboto", sans-serif;
+
 }
 
 ._parentContainer {
@@ -12,7 +12,8 @@
 
 .container {
   margin: 20px 40px;
-  border: 1px solid rgb(218, 214, 214);
+  /* border: 1px solid rgb(218, 214, 214); */
+  border: 1px solid rgb(235, 231, 231);
   display: flex;
   flex-direction: column;
 }
@@ -35,6 +36,9 @@ Button {
   margin-top: 20px;
   color: #595959;
   margin-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 .input-content {
@@ -79,15 +83,16 @@ a:-webkit-any-link {
 ._input-radio {
   display: flex;
   gap: 20px;
-  margin-top: 1.5rem;
+  margin-top: 1.2rem;
   margin-bottom: 0.5rem;
   height: 25px;
 
 }
-._input-radio > label {
+
+._input-radio>label {
   margin-top: 10px;
 
-  
+
 }
 
 ._section {
@@ -103,6 +108,7 @@ select {
   border: none;
   outline: none;
 }
+
 textarea {
   background: #F2F2F2;
   outline: none;
@@ -118,9 +124,12 @@ input {
 label {
   color: #262626;
   font-weight: 600;
-  font-size: 13px;
-  margin-left: 10px;
+  font-size: 12px;
+  /* margin-left: 10px; */
   margin-bottom: 5px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 input[type="text"],
@@ -129,7 +138,7 @@ input[type="number"], input[type="date"], select {
   font-size: 16px;
 }
 
-input[type=radio],  input[type=checkbox] {
+input[type=radio], input[type=checkbox] {
   border-radius: 50%;
   width: 20px;
   height: 20px;
@@ -150,19 +159,27 @@ input[type=checkbox] {
   font-weight: 500;
   margin-bottom: 10px;
   color: #595959;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 .form-check {
   display: flex;
   align-items: center;
 }
-.form-check > label {
-  margin-top: 10px;
+
+.form-check>label {
+  margin-top: 15px;
 }
 
-.largerCheckbox > label {
+.largerCheckbox>label {
   display: flex;
   margin-top: 5px;
+}
+
+td {
+  padding: 0px 10px;
 }
 
 ._image-section {
@@ -240,27 +257,31 @@ input, textarea {
 select {
   padding-left: 5px;
 }
+
 ._table-btn {
   margin-top: 15px;
 }
 
 .plain-text {
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
 }
 
 ._text-area-input {
   margin-top: 27px;
 }
+
 ._input-post {
   display: flex;
   gap: 10px;
+  align-items: center;
 }
+
 ._input-post-field {
   width: 70px !important;
 }
+
 .text-one {
   padding: 7px 0;
-  font-family: 'Times New Roman', Times, serif;
 }
 
 .text-two {
@@ -268,20 +289,16 @@ select {
   font-weight: 500;
 }
 
-.text-three {
-  font-family: 'Times New Roman', Times, serif;
-}
-
 .price-section {
   color: #E54045;
   font-size: 24px;
   font-weight: 700;
-  font-family: 'Times New Roman', Times, serif;
 }
 
 
 .carousel-main {
-  width:500px;
+  max-width: 500px;
+  width: 100%;
   margin: auto;
   margin-bottom: 20px;
   /* overflow: hidden; */
@@ -292,7 +309,7 @@ select {
   width: 40%;
 }
 
-.swiper { 
+.swiper {
   overflow: visible !important;
 
 }
@@ -311,7 +328,7 @@ select {
 }
 
 .carousel-inside-box {
-  border: 1px solid black;
+  border: 1px solid rgb(235, 231, 231);
   padding: 20px 15px;
   height: 250px;
   overflow: hidden;
@@ -321,6 +338,7 @@ select {
   display: flex;
   justify-content: center;
 }
+
 .swiper-button-prev, .swiper-button-next {
   position: absolute;
 }
@@ -331,11 +349,13 @@ select {
 .swiper-button-prev, .swiper-button-next {
   z-index: 1000;
 }
+
 .swiper-button-prev:after, .swiper-button-next:after {
   font-size: 40px;
-  
+
 
 }
+
 .swiper-button-prev {
   left: -50px;
 }
@@ -354,13 +374,14 @@ select {
   font-weight: 500;
   font-size: 14px;
   padding: 5px 0;
-  margin-top: 10px;
+  margin-top: 20px;
 
 }
 
 .carousel-para {
   font-weight: 400;
   font-size: 10px;
+  margin: 5px 0px;
 }
 
 .user-table {
@@ -382,6 +403,7 @@ tr {
   border: 1px dashed #e4e1e1;
   height: 20px;
 }
+
 td {
   height: 20px;
 }
@@ -408,6 +430,7 @@ td {
 .swiper-button-next {
   color: grey !important;
 }
+
 ._orderSuccess {
   display: flex;
   flex-direction: column;
@@ -416,6 +439,7 @@ td {
   max-height: 700px;
   margin-top: 90px;
 }
+
 ._text-content {
   display: flex;
   align-items: center;
@@ -424,12 +448,14 @@ td {
   gap: 20px;
   margin-top: -20px;
 }
+
 ._btn-footer {
   display: flex;
   gap: 20px;
   align-items: center;
   margin: 25px 0px;
 }
+
 ._thanks-message {
   text-align: center;
   font-size: 28px;
@@ -531,6 +557,7 @@ td {
 
 
 }
+
 ._map-footer {
   display: flex;
   margin-top: 30px;
@@ -571,6 +598,10 @@ td {
   margin-left: 60px;
 }
 
+.largerCheckbox > label {
+  margin-top: 15px;
+}
+
 ._check-button-green {
   background-color: rgb(23, 199, 23);
   border: 2px solid rgb(50, 202, 50);
@@ -584,8 +615,9 @@ td {
   display: flex;
   justify-content: end;
   gap: 40px;
-  margin-top:  10px;
+  margin-top: 10px;
 }
+
 ._map-elements {
   display: flex;
   gap: 10px;
@@ -596,23 +628,29 @@ td {
 
 
 
-@media (max-width: 950px) {
+@media (max-width: 1000px) {
   .register-content {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     margin-top: 0px;
     margin-bottom: 20px;
   }
 
-  ._image-section {
+  ._car-details-container{
     display: none;
   }
 
   .route-btn {
-    /* Adjust button styles for mobile devices */
     width: 50%;
-    /* Make buttons full width */
     margin-bottom: 10px;
-    /* Add some space between buttons */
+  }
+
+  .swiper-button-next {
+    right: -30px;
+  }
+
+  .swiper-button-prev {
+    left: -30px;
+
   }
 
   /* .carousel-main {
@@ -620,7 +658,7 @@ td {
   } */
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 700px) {
   .register-content {
     grid-template-columns: 1fr;
     margin-top: 0px;
@@ -628,12 +666,10 @@ td {
   }
 
   .route-btn {
-    /* Adjust button styles for mobile devices */
     width: 100%;
-    /* Make buttons full width */
     margin-bottom: 10px;
-    /* Add some space between buttons */
   }
+
   ._thanks-message {
     margin-bottom: 40px;
     font-size: 22px;
@@ -644,4 +680,44 @@ td {
   }
 }
 
-@media (max-width: 360px) {}
+
+@media (max-width: 360px) {} */
+
+@media (max-width: 500px) {
+  ._map-elements-parent {
+    flex-direction: column;
+    gap: 10px;
+
+  }
+  ._thanks-message { 
+    font-size: 20px;
+  }
+
+}
+
+@media (max-width: 650px) {
+  .swiper-wrapper {
+    max-width: 200px;
+    width: 100%;
+
+  }
+  ._order-success>img:nth-child(1) {
+    width: 300px;
+
+  }
+
+ 
+  ._input-radio {
+    margin-top: 0px;
+  }
+  .register-content {
+    gap: 0px;
+
+  }
+  .swiper-button-prev:after, .swiper-button-next:after {
+    font-size: 20px;
+  
+  
+  }
+
+}

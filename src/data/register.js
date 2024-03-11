@@ -87,12 +87,12 @@ export const carouselData = [
   {
     image: "/assets/icon_change1.png",
     heading: "Hjulskift",
-    para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad natus beatae inventore voluptatum",
+    para: "Hjulskift mens kunden tar en kaffe. Vi korrekt montering, lufttrykk og kalibrering med bilens systemer.",
   },
   {
     image: "/assets/icon_change2.png",
     heading: "Maskinvask",
-    para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad natus beatae inventore voluptatum quasi officiis molestias",
+    para: "Skånsom maskinvask avdekk og felger førlagring. Urenheterfjernes og levetidenforlenges.",
   },
   {
     image: "/assets/icon_change3.png",
