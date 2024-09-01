@@ -1,3 +1,4 @@
+import register from "../../../preact-custom-element";
 import CommonButton from "../../common/commonButton";
 
 const OrderSuccessMessage = () => {
@@ -34,3 +35,8 @@ const OrderSuccessMessage = () => {
 };
 
 export default OrderSuccessMessage;
+
+
+console.log('Registering custom element: mdh-register');
+register(OrderSuccessMessage, 'mdh-register');
+console.log('Custom element registered: mdh-register');

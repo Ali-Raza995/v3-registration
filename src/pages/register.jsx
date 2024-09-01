@@ -9,7 +9,8 @@ import UserContact from "../components/register/userContact/userContact";
 import UserDetails from "../components/register/userDetails/userDetails";
 import { checkDetailsMap } from "../data/register";
 
-const Register = () => {
+
+export const Register = () => {
   const [isFormSubmitted, setIsFormSubmitted] = useState(false);
 
   const handleSubmit = () => {
@@ -54,4 +55,3 @@ const Register = () => {
   );
 };
 
-export default Register;

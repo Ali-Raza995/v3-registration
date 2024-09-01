@@ -1,8 +1,8 @@
 import { Navigate, Route, Routes } from "react-router-dom";
-import Register from "./pages/register";
+import {Register} from "./pages/register";
 import SalgsOversitPage from "./components/salgsOversit/salgsOversit";
 
-function App() {
+export function App() {
   return (
     <Routes>
       <Route path="/register" element={<Register />} />
@@ -14,4 +14,5 @@ function App() {
   );
 }
 
-export default App;
+
+

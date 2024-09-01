@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
+    "preact": "^10.22.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.1",
     "react-bootstrap-carousel": "^4.1.1",
@@ -19,6 +20,7 @@
     "swiper": "^11.0.7"
   },
   "devDependencies": {
+    "@preact/preset-vite": "^2.8.2",
     "@types/react": "^18.2.56",
     "@types/react-dom": "^18.2.19",
     "@vitejs/plugin-react": "^4.2.1",
